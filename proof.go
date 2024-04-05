@@ -3,12 +3,12 @@ package proof
 import "fmt"
 
 type Proof struct {
-	Errs map[string]any
+	Errs map[string]string
 }
 
 func NewProof() Proof {
 	return Proof{
-		Errs: make(map[string]any),
+		Errs: make(map[string]string),
 	}
 }
 
@@ -17,7 +17,7 @@ func (p Proof) IsValid() bool {
 }
 
 func (p Proof) Int(val int, field string) {
-	p.check(val >= 0, field, fmt.Sprintf("%v is not a valid positive int", val))
+	p.check(val >= 0, field, fmt.Sprintf("%d is not a valid positive int", val))
 }
 
 func (p Proof) check(condition bool, field string, customMsg string) {
