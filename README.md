@@ -4,6 +4,7 @@ Simple, small and easy to use validation library
 
 ## Motivation
 I wanted a simple, small and easy to use validation library like [govalidator](https://github.com/rezakhademix/govalidator/) and also learn how to build a library I could possibly use in my projects.
+> also serves as a reminder that I can build one.
 
 
 ## Installation
