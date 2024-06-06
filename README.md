@@ -1,55 +1,42 @@
-# proof
-Simple, small and easy to use validation library
+# input
+Simple, small, easy and zero dependency input function similar to the one in Python.
 
 
 ## Motivation
-I wanted a simple, small and easy to use validation library like [govalidator](https://github.com/rezakhademix/govalidator/) and also learn how to build a library I could possibly use in my projects.
-> also serves as a reminder that I can build one.
+I wanted a simple way to accept user input from terminal, especially one closer to python or a library without too much dependencies.
+and also learn how to build a library I could use when needed.
+> also serves as a reminder/inspiration that I can build a library/tool.
 
 
 ## Installation
 
-Install `proof` with go
+Install `input` with npm
 
 ```bash
-go get github.com/sparrowsl/proof
+npm i input
 ```
 
 
 ## Usage/Examples
 
-```go
-import "github.com/sparrowsl/proof"
+```js
+import { input } from "input"
 
-func main() {
-  p := proof.NewProof()
+const name = await input("What is your name?") // joe
 
-  age := 10
-  // Checks is a value is an int
-  p.Int(age,"age")
-
-  p.IsValid() // prints if validations are valid or not
-
-  fmt.Println(p.Errs) // prints out all errors 
-}
+console.log(name) // -> joe
 ```
 
 ## Contributing
 
 Contributions and pull requests are always welcome!
 
-Please make sure to update tests as appropriate.
-
 
 ## Acknowledgements
-some of the validation libraries I am inspired by.
-
- - [govalidator](https://github.com/rezakhademix/govalidator)
- - [valgo](https://github.com/cohesivestack/valgo) 
- - [Boot.dev community](https://boot.dev) - for the inspiration/courage
+Inspired by Python's input built-in function.
 
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE)
 
