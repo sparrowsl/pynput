@@ -1,5 +1,5 @@
 {
-  "name": "@sparrowsl/input",
+  "name": "@sparrow/input",
   "version": "0.0.1",
   "description": "Zero dependency library for reading input from command line",
   "main": "index.js",

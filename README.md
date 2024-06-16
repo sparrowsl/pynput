@@ -13,16 +13,16 @@ and also learn how to build a library I could use when needed.
 Install `input` with npm
 
 ```bash
-npm i input
+npm i @sparrow/input
 ```
 
 
 ## Usage/Examples
 
 ```js
-import { input } from "input"
+import input from "input"
 
-const name = await input("What is your name?") // joe
+const name = await input("What is your name? ") // joe
 
 console.log(name) // -> joe
 ```
