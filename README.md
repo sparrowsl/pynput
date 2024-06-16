@@ -20,7 +20,7 @@ npm i @sparrow/input
 ## Usage/Examples
 
 ```js
-import input from "input"
+import input from "@sparrow/input"
 
 const name = await input("What is your name? ") // joe
 
