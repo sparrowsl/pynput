@@ -1,11 +1,12 @@
 {
-  "name": "input",
+  "name": "@sparrowsl/input",
   "version": "0.0.1",
   "description": "Zero dependency library for reading input from command line",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
+  "keywords": [
+    "input"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sparrowsl/input.git"

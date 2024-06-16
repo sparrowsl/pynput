@@ -2,7 +2,7 @@ import { stdin, stdout as output } from "process"
 import readline from "readline/promises"
 
 /**
- * @param {string} [prompt=""] 
+ * @param {string} [prompt=] 
  * @returns {Promise<String>}
  */
 export async function input(prompt = "") {
