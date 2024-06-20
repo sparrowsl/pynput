@@ -1,4 +1,4 @@
-# input
+# pynput
 Simple, small, easy and zero dependency input function similar to the one in Python.
 
 
@@ -10,17 +10,17 @@ and also learn how to build a library I could use when needed.
 
 ## Installation
 
-Install `input` with npm
+Install `pynput` with npm
 
 ```bash
-npm i @sparrow/input
+npm i pynput
 ```
 
 
 ## Usage/Examples
 
 ```js
-import input from "@sparrow/input"
+import input from "pynput"
 
 const name = await input("What is your name? ") // joe
 
