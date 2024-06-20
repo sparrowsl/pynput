@@ -1,6 +1,6 @@
 {
   "name": "pynput",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Zero dependency library for reading input from command line",
   "main": "index.js",
   "scripts": {},
