@@ -1,7 +1,8 @@
 {
 	"name": "pynput",
-	"version": "0.1.3",
-	"description": "Zero dependency library for reading input from command line",
+	"version": "0.1.0",
+	"private": false,
+	"description": "simple, small, zero dependency library for reading input",
 	"main": "index.js",
 	"scripts": {},
 	"keywords": [
@@ -9,13 +10,13 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sparrowsl/input.git"
+		"url": "git+https://github.com/sparrowsl/pynput.git"
 	},
 	"type": "module",
 	"author": "Sparrow",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/sparrowsl/input/issues"
+		"url": "https://github.com/sparrowsl/pynput/issues"
 	},
-	"homepage": "https://github.com/sparrowsl/input#readme"
+	"homepage": "https://github.com/sparrowsl/pynput#readme"
 }
