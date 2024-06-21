@@ -1,22 +1,22 @@
 {
-	"name": "pynput",
-	"version": "0.1.0",
-	"private": false,
-	"description": "simple, small, zero dependency library for reading input",
-	"main": "index.js",
-	"scripts": {},
-	"keywords": [
-		"input"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/sparrowsl/pynput.git"
-	},
-	"type": "module",
-	"author": "Sparrow",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/sparrowsl/pynput/issues"
-	},
-	"homepage": "https://github.com/sparrowsl/pynput#readme"
+  "name": "pynput",
+  "version": "0.1.4",
+  "private": false,
+  "description": "simple, small, zero dependency library for reading input",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "input"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparrowsl/pynput.git"
+  },
+  "type": "module",
+  "author": "Sparrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sparrowsl/pynput/issues"
+  },
+  "homepage": "https://github.com/sparrowsl/pynput#readme"
 }
