@@ -1,4 +1,4 @@
-import { stdin as input, stdout as output } from "process";
+import { stdin, stdout as output } from "process";
 import readline from "readline/promises";
 
 /**
@@ -7,9 +7,9 @@ import readline from "readline/promises";
  * @returns {Promise<String>}
  */
 export async function input(prompt = "") {
-  const rl = readline.createInterface({ input, output });
+	const rl = readline.createInterface({ input: stdin, output });
 
-  const result = await rl.question(prompt);
-  rl.close();
-  return result;
-};
+	const result = await rl.question(prompt);
+	rl.close();
+	return result;
+}

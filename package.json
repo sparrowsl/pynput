@@ -1,6 +1,6 @@
 {
   "name": "pynput",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": false,
   "description": "simple, small, zero dependency library for reading input",
   "main": "index.js",
