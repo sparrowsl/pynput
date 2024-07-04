@@ -1,5 +1,5 @@
-import { stdin, stdout as output } from "process";
-import readline from "readline/promises";
+import { stdin, stdout as output } from "node:process";
+import readline from "node:readline/promises";
 
 /**
  * Takes a user input from terminal and returns a string

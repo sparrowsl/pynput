@@ -1,9 +1,10 @@
 {
   "name": "pynput",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": false,
   "description": "simple, small, zero dependency library for reading input",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {},
   "keywords": [
     "input"
