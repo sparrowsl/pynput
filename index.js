@@ -7,16 +7,14 @@ import readline from "node:readline/promises";
  * @param {Object} [options={}] - The options for parsing input: { int: true } or { float: true }
  * @returns {Promise<String|Number>}
  */
-export async function input(prompt = "") {
+export async function input(prompt = "", options = {}) {
 	const rl = readline.createInterface({ input: stdin, output });
 
 	const result = await rl.question(prompt);
 	rl.close();
 
-	const parsed_int = parseInt(result, 10)
-	const parsed_float = parseFloat(result)
-
 	if (options.int) {
+        const parsed_int = parseInt(result, 10)
 		if (isNaN(parsed_int)) {
 			throw new Error("input is not a valid integer");
 		}
@@ -24,6 +22,7 @@ export async function input(prompt = "") {
 	}
 
 	if (options.float) {
+        const parsed_float = parseFloat(result)
 		if (isNaN(parsed_float)) {
 			throw new Error("input is not a valid float");
 		}
