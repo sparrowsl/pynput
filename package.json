@@ -1,23 +1,24 @@
 {
-  "name": "pynput",
-  "version": "0.2.3",
-  "private": false,
-  "description": "simple, small, zero dependency library for reading input",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {},
-  "keywords": [
-    "input"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sparrowsl/pynput.git"
-  },
-  "type": "module",
-  "author": "Sparrow",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sparrowsl/pynput/issues"
-  },
-  "homepage": "https://github.com/sparrowsl/pynput#readme"
+	"name": "pynput",
+	"version": "0.2.3",
+	"private": false,
+	"description": "simple, small, zero dependency library for reading input",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"generate": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly",
+		"format": "npx @biomejs/biome format --write ."
+	},
+	"keywords": ["input"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sparrowsl/pynput.git"
+	},
+	"type": "module",
+	"author": "Sparrow",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sparrowsl/pynput/issues"
+	},
+	"homepage": "https://github.com/sparrowsl/pynput#readme"
 }
