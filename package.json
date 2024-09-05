@@ -1,6 +1,6 @@
 {
 	"name": "pynput",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"private": false,
 	"description": "simple, small, zero dependency library for reading input",
 	"main": "index.js",
@@ -9,9 +9,7 @@
 		"generate": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly",
 		"format": "npx @biomejs/biome format --write ."
 	},
-	"keywords": [
-		"input"
-	],
+	"keywords": ["input"],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/sparrowsl/pynput.git"
