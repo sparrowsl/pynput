@@ -7,7 +7,7 @@
 	"types": "index.d.ts",
 	"scripts": {
 		"generate": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly",
-		"format": "npx @biomejs/biome format --write ."
+		"check": "npx @biomejs/biome check --write ."
 	},
 	"keywords": ["input"],
 	"repository": {
