@@ -9,13 +9,26 @@
 		"generate": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly",
 		"check": "npx @biomejs/biome check --write ."
 	},
-	"keywords": ["input"],
+	"keywords": [
+		"input"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/sparrowsl/pynput.git"
 	},
 	"type": "module",
-	"author": "Sparrow",
+	"contributors": [
+		{
+			"name": "Benjamin Thorpe",
+			"email": "benthorpe.dev@gmail.com",
+			"url": "https://github.com/sparrowsl"
+		},
+		{
+			"name": "Abdullah Mustapha",
+			"email": "abdullahmu4life@gmail.com",
+			"url": "https://github.com/abdullah4tech"
+		}
+	],
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/sparrowsl/pynput/issues"
