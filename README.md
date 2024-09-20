@@ -9,7 +9,7 @@ I wanted a simple way to accept user input from terminal, especially one closer 
 
 ## Installation
 
-Install `pynput` with npm
+Install `pynput` with npm _(or any package manager)_
 
 ```bash
 npm i pynput
@@ -21,10 +21,20 @@ npm i pynput
 ```js
 import { input } from "pynput"
 
-const name = await input("What is your name? ") // joe
+const name = await input("Name: ") // joe
 
 console.log(name) // -> joe
 ```
+
+```js
+// converting an int/float
+import { input } from "pynput"
+
+const age = await input("Age: ", {convert: "int"}) // 10
+
+console.log(10) // -> 10
+```
+
 
 ## Contributing
 
