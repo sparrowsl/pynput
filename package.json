@@ -1,12 +1,10 @@
 {
 	"name": "pynput",
-	"version": "0.3.1",
+	"version": "0.4.0",
 	"private": false,
 	"description": "simple, small, zero dependency library for reading input",
 	"main": "index.js",
-	"types": "index.d.ts",
 	"scripts": {
-		"generate": "npx -p typescript tsc *.js --declaration --allowJs --emitDeclarationOnly",
 		"check": "npx @biomejs/biome check --write ."
 	},
 	"keywords": ["input"],
@@ -17,8 +15,8 @@
 	"type": "module",
 	"contributors": [
 		{
-			"name": "Benjamin Thorpe",
-			"email": "benthorpe.dev@gmail.com",
+			"name": "Sparrow",
+			"email": "benjaminthorpe19@gmail.com",
 			"url": "https://github.com/sparrowsl"
 		},
 		{
